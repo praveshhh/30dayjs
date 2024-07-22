@@ -32,3 +32,19 @@ function task3(){
 task3();
 
 //task4
+function task4(){
+    let a= "hello";
+    let b="world";
+    console.log(a +" " + b );
+}
+task4();
+
+//task 5
+
+function task5 (){
+    const sum = (num1, num2) => num1 + num2;
+    const result = sum(16,7);
+    console.log(result);
+}
+task5();
+
