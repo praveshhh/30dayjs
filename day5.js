@@ -48,3 +48,47 @@ function task5 (){
 }
 task5();
 
+//task6
+function task6(){
+    const checkCharacter= () =>{
+        let str = "pravesh"
+        let result= str.includes('s');
+        return result;
+    }
+    console.log(checkCharacter());
+
+    
+}
+task6();
+
+//task7
+
+function task7() {
+   
+   const result = (num1 = 16 , num2)=> num1*num2;
+   console.log(result(10,20));
+   console.log(result(undefined,10));
+
+
+}
+task7();
+
+//task8
+
+function task8(name, age=23){
+    return `hello ${name} , you are ${age} years old. `;
+
+}
+console.log(task8("pravesh"));
+
+//task9 
+function task9(kabirdas, tulsidas){
+    for(let  i=0; i<tulsidas; i++){
+        kabirdas();
+
+    }
+}
+    function pcall(){
+        console.log("ham chinta q kare \n chinta se ka hoye");
+    }
+    task9(pcall,2);
