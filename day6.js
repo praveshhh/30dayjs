@@ -27,3 +27,14 @@ console.log(arr2);
 //task6 
 arr2.unshift(0,16);
 console.log(arr2);
+
+//activity 3 
+//task 7
+const myNumbers= [9,9,8,7,6,8,9,3,7,7]
+const newNums= myNumbers.map((num)=> num*2);
+console.log(newNums);
+
+//task 8
+ let newNumber= [2,4,6,8,10,12,14,16]
+ let newNum= newNumber.filter((num1)=>newNumber%2)
+ console.log(newNum);
