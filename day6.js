@@ -36,5 +36,11 @@ console.log(newNums);
 
 //task 8
  let newNumber= [2,4,6,8,10,12,14,16]
- let newNum= newNumber.filter((num1)=>newNumber%2)
+ let newNum= newNumber.filter((num1)=>newNumber)
  console.log(newNum);
+
+ //task9
+ let array7= [1, 2, 3, 4, 5, 6, 7]
+ const sumOfArray7= array7.reduce((accumulator, currvalue)=> accumulator+currvalue,0)
+ 
+ console.log(sumOfArray7);
